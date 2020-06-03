@@ -1,0 +1,66 @@
+
+
+body{
+ margin: 0;
+ padding: 0;
+ font-family: sans-serif;
+ background: url(anu.jpg) no-repeat;
+ background-size: cover;
+
+}
+.loginbox{
+width: 280px;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-38%, -48%);
+color: white;
+
+}
+.loginbox h1{
+    width: 32%;
+	float: none;
+	font-size: 30px;
+	border-bottom: 6px solid #22b95e;
+	overflow: hidden;
+	margin-bottom: 40px;
+	padding: 10px 0 ;
+
+}
+.textbox{
+width: 100%;
+overflow: hidden;
+font-size: 20px;
+padding: 8px 0;
+margin: 8px 0;
+border-bottom: 1px solid #22b95e;
+
+}
+
+.textbox i{
+
+	width: 24px;
+	text-align: center;
+}
+.textbox input{
+
+	border: none;
+	outline: none;
+	background: none;
+	color: white;
+	font-size: 17px;
+	width: 60%;
+	margin: 0 19px;
+
+}
+.btn{
+
+	width: 100%;
+	background: none;
+	border: 2px solid #22b95e;
+    color: white;
+    font-size: 20px;
+    padding: 8px;
+    cursor: pointer;
+    margin: 12px 0;
+}
